@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="title-container">
+        <h1 class="tool-title">Pomodoro</h1>
+        <p class="tool-slogan">Your #1 tool for <strong>focus</strong> and <strong>productivity</strong></p>
+    </section>
+
+    <section class="pomodoro">
+        <div class="progress">
+            <div class="timer-container">
+                <p class="timer">
+                    <span id="minutes">25</span>:<span id="seconds">00</span>
+                </p>
+            </div>
+        </div>
+
+        <button class="start-button button">Start</button>
+
+        <div class="hidden-buttons">
+            <button class="pause-button button">Pause</button><br>
+            <button class="restart-button button">Reset</button>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
